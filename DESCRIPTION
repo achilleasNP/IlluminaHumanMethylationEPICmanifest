@@ -1,0 +1,12 @@
+Package: IlluminaHumanMethylationEPICB5manifest
+Title: Illumina Human Methylation EPIC Array 1.0B5 Manifest
+Version: 0.0.1
+Authors@R: 
+    person(given = "Achilleas",
+           family = "Pitsillides",
+           role = c("aut", "cre"),
+           email = "anp4r@bu.edu")
+Description: This is a drop in replacement IlluminaHumanMethylationEPIC package providing a Manifest based on 1.0B5 annotation. The IlluminaHumanMethylationEPIC package by  Author: Kasper Daniel Hansen [cre, aut] as of version 0.3.0 still uses the manifest based 1.0B2 annotation. There is a companion annotation package: IlluminaHumanMethylationEPICB5anno.ilm10b5.hg38. To provide the appropriate annotation.
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
