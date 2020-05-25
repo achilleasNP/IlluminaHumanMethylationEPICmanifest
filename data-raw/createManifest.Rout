@@ -131,20 +131,20 @@ Loading required package: usethis
 > 
 > 
 > ## Manifest package
-> IlluminaHumanMethylationEPICB5manifest <- do.call(IlluminaMethylationManifest,
+> IlluminaHumanMethylationEPICmanifest <- do.call(IlluminaMethylationManifest,
 +                                                 list(TypeI = manifestList$TypeI,
 +                                                      TypeII = manifestList$TypeII,
 +                                                      TypeControl = manifestList$TypeControl,
 +                                                      TypeSnpI = manifestList$TypeSnpI,
 +                                                      TypeSnpII = manifestList$TypeSnpII,
-+                                                      annotation = "IlluminaHumanMethylationEPICB5"))
++                                                      annotation = "IlluminaHumanMethylationEPIC"))
 > 
 > ## Save package data
 > setwd("..")
-> use_data(IlluminaHumanMethylationEPICB5manifest, internal=TRUE)
-✔ Setting active project to '/restricted/projectnb/fhs-methylation/anp4r/r_packages/IlluminaHumanMethylationEPICManifestB5'
-✔ Saving 'IlluminaHumanMethylationEPICB5manifest' to 'R/sysdata.rda'
+> use_data(IlluminaHumanMethylationEPICmanifest, internal=TRUE)
+✔ Setting active project to '/restricted/projectnb/fhs-methylation/anp4r/r_packages/IlluminaHumanMethylationEPICmanifest'
+✔ Saving 'IlluminaHumanMethylationEPICmanifest' to 'R/sysdata.rda'
 > 
 > proc.time()
    user  system elapsed 
- 95.115   6.200 102.807 
+ 82.152   2.897 110.026 

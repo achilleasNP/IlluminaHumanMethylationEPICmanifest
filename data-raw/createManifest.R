@@ -29,14 +29,14 @@ table(substr(dropCpGs, 1,2))
 
 
 ## Manifest package
-IlluminaHumanMethylationEPICB5manifest <- do.call(IlluminaMethylationManifest,
+IlluminaHumanMethylationEPICmanifest <- do.call(IlluminaMethylationManifest,
                                                 list(TypeI = manifestList$TypeI,
                                                      TypeII = manifestList$TypeII,
                                                      TypeControl = manifestList$TypeControl,
                                                      TypeSnpI = manifestList$TypeSnpI,
                                                      TypeSnpII = manifestList$TypeSnpII,
-                                                     annotation = "IlluminaHumanMethylationEPICB5"))
+                                                     annotation = "IlluminaHumanMethylationEPIC"))
 
 ## Save package data
 setwd("..")
-use_data(IlluminaHumanMethylationEPICB5manifest, internal=TRUE)
+use_data(IlluminaHumanMethylationEPICmanifest, internal=TRUE)

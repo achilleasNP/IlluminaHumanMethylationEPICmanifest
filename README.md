@@ -11,11 +11,11 @@ This package provides a manifest based on the 1.0B5 manifest file [infinium-meth
 You can install it in R by using the devtools library and doing:
 ```r
  library(devtools)
- install_github("achilleasNP/IlluminaHumanMethylationEPICB5manifest") 
+ install_github("achilleasNP/IlluminaHumanMethylationEPICmanifest") 
  ```
  and force minfi to use the package by setting the annotation of your "RGChannelSet" object as below:
 
 ## Usage instructions 
  ```r
-RGset@annotation = c(array = "IlluminaHumanMethylationEPICB5", annotation = "ilm10b5.hg38")
+RGset@annotation = c(array = "IlluminaHumanMethylationEPIC", annotation = "ilm10b5.hg38")
 ```
