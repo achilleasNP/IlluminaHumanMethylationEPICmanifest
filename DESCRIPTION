@@ -1,6 +1,6 @@
 Package: IlluminaHumanMethylationEPICmanifest
 Title: Illumina Human Methylation EPIC Array 1.0B5 Manifest
-Version: 1.0.0a
+Version: 1.0.0
 Authors@R: 
     person(given = "Achilleas",
            family = "Pitsillides",
